@@ -1,0 +1,330 @@
+/* General Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a, .login-btn {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #f75c5c;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #f9f9ff;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.chrome {
+    background-color: #3c78e4;
+    color: white;
+}
+
+.firefox {
+    background-color: #f75c5c;
+    color: white;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #f9f9ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 2px solid #f75c5c;
+    font-weight: bold;
+}
+
+/* Bookmark Info Section */
+.bookmark-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f8f9fc;
+}
+
+.bookmark-image img {
+    width: 400px;
+}
+
+.bookmark-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.bookmark-text p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Download Section */
+.download {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.extension-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #f9f9ff;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn.add-extension {
+    background-color: #536DFE;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* FAQ Section */
+.faq {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.faq h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.faq p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.faq-item .answer {
+    display: none;
+    color: #666;
+    margin-top: 10px;
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+.arrow {
+    font-size: 14px;
+    color: #999;
+}
+
+.btn.more-info {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #3c78e4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Subscribe Section */
+.subscribe {
+    background-color: #536dfe;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subscribe p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.subscribe h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.subscribe form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.subscribe button.contact-us {
+    padding: 10px 20px;
+    background-color: #f75c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
